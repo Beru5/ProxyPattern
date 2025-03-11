@@ -1,5 +1,4 @@
-# Proxy Design Pattern
-[Input Text Here]
+# Proxy Design PatternS
 
 ## Apa itu Proxy Design Pattern?
 [Input Text Here]
