@@ -1,7 +1,7 @@
 # Proxy Design PatternS
 
 ## Apa itu Proxy Design Pattern?
-[Input Text Here]
+[hiura]
 
 ## Kapan Proxy Design Pattern Digunakan?
 [Input Text Here]
