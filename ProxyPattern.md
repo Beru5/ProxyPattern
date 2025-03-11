@@ -4,7 +4,7 @@
 [hiura]
 
 ## Kapan Proxy Design Pattern Digunakan?
-[Input Text Here]
+[Hiura Punya Guahhhhh Temeeeeeeee]
 
 ## Apa Kelebihan dari Proxy Design Pattern?
 ### 1. ..
