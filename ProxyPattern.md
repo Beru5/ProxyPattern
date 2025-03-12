@@ -12,15 +12,27 @@ Proxy Design Patterns digunakan ketika diperlukan untuk membatasi akses ke objek
 Proxy Pattern apabila ingin menyimpan objek yang sudah di eksekusi agar tidak perlu dieksekusi berulang kali dengan menyimpan cache objek tersebut.
 
 ## Apa Kelebihan dari Proxy Design Pattern?
-### 1. ..
-[Input Text Here]
+### 1. Mengoptimalkan Sumber Daya
+Kelebihan: Proxy dapat menunda pembuatan atau inisialisasi objek yang berat hingga benar-benar diperlukan, menghemat waktu dan memori.
+Dalam aplikasi yang membutuhkan pemrosesan data besar atau memuat gambar besar, Virtual Proxy membantu aplikasi tetap responsif.
+
+### 2. Meningkatkan Keamanan
+Kelebihan: Proxy dapat mengontrol akses ke objek asli dengan menambahkan lapisan keamanan. Hal ini memastikan bahwa hanya pengguna atau sistem yang memiliki izin yang dapat mengakses objek tersebut.
+Sistem login yang membatasi akses ke data sensitif atau fitur khusus hanya untuk pengguna yang terautentikasi.
+
+### 3. Mengurangi Redundansi
+Kelebihan: Dengan menyimpan salinan hasil dari operasi yang sudah dilakukan, Cache Proxy dapat menghindari eksekusi berulang dan meningkatkan efisiensi sistem.
+Proxy server yang menyimpan data dari permintaan sebelumnya untuk mempercepat akses berikutnya.
+
+### 4. Menyederhanakan Interaksi dengan Sistem yang Rumit 
+Proxy bertindak sebagai perantara yang menyembunyikan kompleksitas dari objek asli. Klien hanya perlu berinteraksi dengan antarmuka proxy yang lebih sederhana tanpa perlu memahami detail implementasi di balik layar. Sebagai contoh, dalam pengembangan aplikasi, proxy memungkinkan klien untuk mengakses layanan jaringan tanpa perlu memahami mekanisme teknis seperti pengelolaan koneksi atau protokol.
 
 ## Apa Kekurangan dari Proxy Design Pattern?
-### - Tambahan Kompleksitas (Added Complexity) 
+### 1 Tambahan Kompleksitas (Added Complexity) 
 Menggunakan Proxy menambah lapisan ekstra pada sistem, yang dapat membuat kode lebih kompleks dan sulit diikuti.
-### - Performa yang Berkurang (Decreased Performance) 
+### 2 Performa yang Berkurang (Decreased Performance) 
 Meskipun Proxy dapat meningkatkan kinerja dalam beberapa kasus, ia juga dapat menambah latensi tambahan karena adanya lapisan perantara.
-### - Ketergantungan Tambahan (Additional Dependencies) 
+### 3 Ketergantungan Tambahan (Additional Dependencies) 
 Proxy menambah ketergantungan tambahan pada sistem, yang bisa mempengaruhi stabilitas dan fleksibilitas aplikasi secara keseluruhan.
 
 ## Bagaimana Contoh Kode Penggunaan Proxy Design Pattern?
