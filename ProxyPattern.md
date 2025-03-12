@@ -1,5 +1,5 @@
 # Proxy Design Pattern
-
+Aku Itbss
 ## Apa itu Proxy Design Pattern?
 Proxy Design Pattern adalah salah satu pola desain dalam pemrograman berorientasi objek yang masuk dalam kategori structural design patterns. Fungsinya adalah menyediakan objek pengganti atau perantara untuk objek lain, sehingga memungkinkan untuk mengontrol akses atau menambahkan fungsionalitas tambahan sebelum atau setelah interaksi dengan objek asli dilakukan.
 
