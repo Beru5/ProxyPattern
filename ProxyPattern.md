@@ -95,4 +95,5 @@ Fetching image from cache: photo1.jpg
 ```
 Dari output diatas, client akan terhubung ke google.com namun aksesnya ke facebook.com ditolak. Hal ini dapat terjadi dikarenakan class ProxyResource terdapat kode ```private static List<String> bannedSites = Arrays.asList("facebook.com", "youtube.com", "tiktok.com");``` yang merupakan firewall dan akan membatasi akses client ke web tertentu yang terbanned yang pada contoh kode ini berupa facebook.com, youtube.com, dan tiktok.com sementara google.com tidak sehingga client dapat dengan bebas mengakses web tertentu.
 <br>
+<br>
 Kemudian client juga akan melakukan loading pada image dari disk, kemudian cache image tersebut akan disimpan kemudian akan digunakan kembali jika image yang sama dibuka kembali. Hal ini diterapkan pada kode ```if (cache.containsKey(resource)) {System.out.println("Fetching image from cache: " + resource);} else {realResource.access(resource);cache.put(resource, "Loaded"); }``` dimana jika gambar yang dibuka sudah ada cachenya tersimpan, maka gambar akan langsung fetch, namun jika tidak, akan diload kemudian akan disimpan cachenya.
