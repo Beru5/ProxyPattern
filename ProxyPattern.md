@@ -16,8 +16,12 @@ Proxy Pattern apabila ingin menyimpan objek yang sudah di eksekusi agar tidak pe
 [Input Text Here]
 
 ## Apa Kekurangan dari Proxy Design Pattern?
-### 1. ..
-[Input Text Here]
+### - Tambahan Kompleksitas (Added Complexity) 
+Menggunakan Proxy menambah lapisan ekstra pada sistem, yang dapat membuat kode lebih kompleks dan sulit diikuti.
+### - Performa yang Berkurang (Decreased Performance) 
+Meskipun Proxy dapat meningkatkan kinerja dalam beberapa kasus, ia juga dapat menambah latensi tambahan karena adanya lapisan perantara.
+### - Ketergantungan Tambahan (Additional Dependencies) 
+Proxy menambah ketergantungan tambahan pada sistem, yang bisa mempengaruhi stabilitas dan fleksibilitas aplikasi secara keseluruhan.
 
 ## Bagaimana Contoh Kode Penggunaan Proxy Design Pattern?
 Berikut contoh kode proxy yang meliputi firewall, lazy loading, dan cache proxy:
