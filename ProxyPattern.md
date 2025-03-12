@@ -24,7 +24,7 @@ Meskipun Proxy dapat meningkatkan kinerja dalam beberapa kasus, ia juga dapat me
 Proxy menambah ketergantungan tambahan pada sistem, yang bisa mempengaruhi stabilitas dan fleksibilitas aplikasi secara keseluruhan.
 
 ## Bagaimana Contoh Kode Penggunaan Proxy Design Pattern?
-Berikut contoh kode proxy yang meliputi firewall, lazy loading, dan cache proxy:
+Berikut contoh kode yang menerapkan proxy design pattern:
 ```java
 import java.util.*;
 
