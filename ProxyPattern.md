@@ -8,7 +8,7 @@ Proxy Design Pattern adalah salah satu pola desain dalam pemrograman berorientas
 Proxy Design Patterns digunakan saat objek memerlukan sumber daya besar (semisalnya, gambar atau data besar) dan kita ingin menunda pembuatannya sampai benar benar dibutuhkan.
 ### - Ketika diperlukan Firewall
 Proxy Design Patterns digunakan ketika diperlukan untuk membatasi akses ke objek berdasarkan hak pengguna atau aturan tertentu.
-### - Cache Proxy
+### - Ketika diperlukan Cache
 Proxy Pattern apabila ingin menyimpan objek yang sudah di eksekusi agar tidak perlu dieksekusi berulang kali dengan menyimpan cache objek tersebut.
 
 ## Apa Kelebihan dari Proxy Design Pattern?
