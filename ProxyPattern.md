@@ -84,7 +84,6 @@ Dari kode diatas, didapatkan output sebagai berikut:
 ```java
 Connecting to google.com
 Access Denied to facebook.com
-Access Denied to tiktok.com
 -----------------------------------
 Loading image from disk: photo1.jpg
 Loading image from disk: photo2.jpg
