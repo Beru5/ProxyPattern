@@ -1,7 +1,8 @@
 # Proxy Design Pattern
 - Bernardo Ng (23100012)
-- Marcelino Oktakesiyasa (231000xx)
-- Albert Vedian Oktariandy (231000xx)
+- Albert Vedian Oktariandy (23100018)
+- Marcelino Oktakesiyasa (23100021)
+
 ## Apa itu Proxy Design Pattern?
 Proxy Design Pattern adalah salah satu pola desain dalam pemrograman berorientasi objek yang masuk dalam kategori structural design patterns. Fungsinya adalah menyediakan objek pengganti atau perantara untuk objek lain, sehingga memungkinkan untuk mengontrol akses atau menambahkan fungsionalitas tambahan sebelum atau setelah interaksi dengan objek asli dilakukan.
 
